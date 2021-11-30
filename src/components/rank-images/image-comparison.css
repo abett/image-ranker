@@ -1,0 +1,26 @@
+.image-wrapper {
+  width: 50%;
+  max-height: 75vh;
+  margin: 20px;
+  border: 5px solid gray;
+  overflow: hidden;
+}
+
+.image-wrapper:hover {
+  border: 5px solid blue;
+}
+
+.image-wrapper.selected {
+  border: 5px solid green !important;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* transition: transform 0.3s ease-in-out; */
+}
+
+.image-wrapper img:hover {
+  /* transform: scale(1.05); */
+}
